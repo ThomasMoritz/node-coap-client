@@ -1,7 +1,7 @@
 import * as crypto from "crypto";
 import * as dgram from "dgram";
 import { isIPv6 } from "net";
-import { dtls } from "node-dtls-client";
+import { dtls } from "electron-dtls-client";
 import { ContentFormats } from "./ContentFormats";
 import { createDeferredPromise, DeferredPromise } from "./lib/DeferredPromise";
 import { getSocketAddressFromURLSafeHostname, getURLSafeHostname } from "./lib/Hostname";
